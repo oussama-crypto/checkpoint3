@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/stylejs.css" />
+  </head>
+  <body>
+    <div class="whole">
+      <div class="feedback">
+        <h1>feedback</h1>
+      </div>
+
+      <div class="buttons-show">
+        <div class="bold-one">
+          <button onclick="myFunction1()">B</button>
+        </div>
+        <div class="italic-one">
+          <button onclick="myFunction2()">I</button>
+        </div>
+        <div class="inderlined-one">
+          <button onclick="myFunction3()">inderlined</button>
+        </div>
+
+        <div class="font-size">
+          <select id="mychoise" name="size" onchange="myFunction4()">
+            <option value="0px">0 pixel</option>
+            <option value="20px">20 pixels</option>
+            <option value="40px">40 pixels</option>
+            <option value="60px">60 pixels</option>
+            <option value="80px">80 pixels</option>
+            <option value="100px">100 pixels</option>
+            <option value="120px">120 pixels</option>
+            <option value="140px">140 pixels</option>
+          </select>
+        </div>
+
+        <div class="family">
+          <select id="select-font" onchange="myFunction5()">
+            <option value="Arial">arial</option>
+            <option value="Comic Sans MS">Comic Sans MS</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Calibri">Calibri</option>
+          </select>
+        </div>
+      </div>
+      <div class="texting">
+        <textarea
+          class="paragraphe"
+          name="paragraphe"
+          id="para"
+          height="50px"
+          width="100px"
+        ></textarea>
+      </div>
+    </div>
+    <script src="/script/javascript.js"></script>
+  </body>
+</html>
